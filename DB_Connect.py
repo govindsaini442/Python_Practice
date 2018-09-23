@@ -10,7 +10,8 @@ print(dsn_tns)
 con = cx_Oracle.connect(user, passwd, dsn_tns)
 print(con.version)
 cur = con.cursor()
-cur.execute("select * from TAB")
+'''cur.execute("select * from TAB")
+print(con.version)
 for result in cur:
-    print(result)
+    print(result)'''
 con.close()
