@@ -44,17 +44,3 @@ for element in list:  ## Iterating element of the newly created list
     else:
         print("Total Count for",element+":",list.count(element))
     listTmp.append(element)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
