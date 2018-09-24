@@ -28,6 +28,7 @@ for letter in 'Hello World':
         count += 1
 print(count,'letters found')
 
+
 ##How to find duplicate character in a string
 test = "fhgjfhgjfhgjfhgjf"
 list = []
